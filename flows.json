@@ -1,10 +1,683 @@
 [
     {
-        "id": "0d874824409f2dc5",
+        "id": "3671fcabd4ef1e0d",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
         "info": "",
         "env": []
+    },
+    {
+        "id": "49ac0a8808ce9eef",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "16abeb093ae68031",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0da28b086110331a",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "46a0eed8e7092516",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d6f5077bb2c1b548",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a3a0f13ae85c5e9d",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b3795643df6094fc",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b1ec119085bc2ae8",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6fad3bacc294dee2",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aaf1aafba20d6c53",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b5d41bf5bf810212",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5c1ea13dda3e743f",
+        "type": "ui_spacer",
+        "z": "3671fcabd4ef1e0d",
+        "name": "spacer",
+        "group": "21e9b36d2b306d46",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "837206eb9d1b5ada",
+        "type": "ui_group",
+        "name": "WEATHER",
+        "tab": "c6a1e3ff.0a0c18",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "21e9b36d2b306d46",
+        "type": "ui_group",
+        "name": "MAP",
+        "tab": "c6a1e3ff.0a0c18",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c6a1e3ff.0a0c18",
+        "type": "ui_tab",
+        "name": "USTP",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "018218ffe10559da",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6e7c51e1.66d6b4",
+        "type": "debug",
+        "z": "3671fcabd4ef1e0d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b5d2011f.1789d",
+        "type": "inject",
+        "z": "3671fcabd4ef1e0d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "29bc59fed4919a85",
+                "261d4ffb99c103c2",
+                "9ba9e27eef92d2ba"
+            ]
+        ]
+    },
+    {
+        "id": "29bc59fed4919a85",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "function 2",
+        "func": "// Generate a random temperature between 20 and 30 degrees Celsius\nvar fakeTemperature = Math.floor(Math.random() * (30 - 20 + 1) + 20)+ \"°C\";\n\n// Create a message object with the temperature\nmsg.payload = fakeTemperature ;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 440,
+        "wires": [
+            [
+                "6e7c51e1.66d6b4",
+                "77cfaba9f5a23e25"
+            ]
+        ]
+    },
+    {
+        "id": "83a19d1f4107443d",
+        "type": "debug",
+        "z": "3671fcabd4ef1e0d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "261d4ffb99c103c2",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "function 3",
+        "func": "// Generate a random temperature between 20 and 30 degrees Celsius\nvar fakehumidity = (Math.floor(Math.random() * (30 - 40 + 1) + 20)).toString() + \"%\";\n\n// Create a message object with the temperature\nmsg.payload = fakehumidity ;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 500,
+        "wires": [
+            [
+                "83a19d1f4107443d",
+                "5f4591c778781fd6"
+            ]
+        ]
+    },
+    {
+        "id": "5f4591c778781fd6",
+        "type": "ui_text",
+        "z": "3671fcabd4ef1e0d",
+        "group": "837206eb9d1b5ada",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humidity",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 800,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "77cfaba9f5a23e25",
+        "type": "ui_text",
+        "z": "3671fcabd4ef1e0d",
+        "group": "837206eb9d1b5ada",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperature",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a2f2732860602ef2",
+        "type": "ui_text",
+        "z": "3671fcabd4ef1e0d",
+        "group": "837206eb9d1b5ada",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Rain Intensity",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9ba9e27eef92d2ba",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Generate Fake Rain",
+        "func": "var fakeRainRate = Math.random() * (35 - 30) + 0.1; // Generate a random rain rate between 0.1 and 60 mm/h\nmsg.payload = fakeRainRate.toFixed(2); // Round to 2 decimal places\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 380,
+        "wires": [
+            [
+                "a5e9a2dba683057b",
+                "a2f2732860602ef2"
+            ]
+        ]
+    },
+    {
+        "id": "a5e9a2dba683057b",
+        "type": "switch",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Rain Intensity",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "2.5",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "2.6",
+                "vt": "num",
+                "v2": "7.5",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "7.6",
+                "vt": "num",
+                "v2": "50",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "50",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "bca684c05f4bf6c9"
+            ],
+            [
+                "b87fa21f3d9c868d"
+            ],
+            [
+                "64fdcd8fd797c65c"
+            ],
+            [
+                "2435c892418ba2fd"
+            ]
+        ]
+    },
+    {
+        "id": "bca684c05f4bf6c9",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Light Rain",
+        "func": "msg.payload = \"Light Rain\";\nmsg.additionalInfo = \"No significant danger. Carry an umbrella for light protection.\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 120,
+        "wires": [
+            [
+                "241ee0f9dd7d3ac7",
+                "9c84643fd7b81851"
+            ]
+        ]
+    },
+    {
+        "id": "b87fa21f3d9c868d",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Moderate Rain",
+        "func": "msg.payload = \"Moderate Rain\";\nmsg.additionalInfo = \"Seek shelter if outdoors. Use appropriate rain gear. Watch for slippery surfaces.\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "241ee0f9dd7d3ac7",
+                "9c84643fd7b81851"
+            ]
+        ]
+    },
+    {
+        "id": "64fdcd8fd797c65c",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Heavy Rain",
+        "func": "msg.payload = \"Heavy Rain\";\nmsg.additionalInfo = \"Urgently seek shelter. Avoid driving if possible. Be cautious of potential flooding.\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 240,
+        "wires": [
+            [
+                "241ee0f9dd7d3ac7",
+                "9c84643fd7b81851"
+            ]
+        ]
+    },
+    {
+        "id": "2435c892418ba2fd",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Violent Rain",
+        "func": "msg.payload = \"Violent Rain\";\nmsg.additionalInfo = \"Extreme weather conditions. Stay indoors and away from windows. Prepare for potential flooding. Emergency action may be required.\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 300,
+        "wires": [
+            [
+                "241ee0f9dd7d3ac7",
+                "9c84643fd7b81851"
+            ]
+        ]
+    },
+    {
+        "id": "241ee0f9dd7d3ac7",
+        "type": "debug",
+        "z": "3671fcabd4ef1e0d",
+        "name": "Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9c84643fd7b81851",
+        "type": "ui_text",
+        "z": "3671fcabd4ef1e0d",
+        "group": "837206eb9d1b5ada",
+        "order": 4,
+        "width": "6",
+        "height": "5",
+        "name": "Advisory",
+        "label": "ADVISORY",
+        "format": "{{msg.payload}} {{msg.additionalInfo}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Times New Roman,Times,serif",
+        "fontSize": "20",
+        "color": "#800000",
+        "x": 840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "48cc30452e64d8e3",
+        "type": "inject",
+        "z": "3671fcabd4ef1e0d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "8a39e642519098de"
+            ]
+        ]
+    },
+    {
+        "id": "8a39e642519098de",
+        "type": "function",
+        "z": "3671fcabd4ef1e0d",
+        "name": "function 1",
+        "func": "// Example: set initial values for X and Y coordinates\nvar initialX = 0;\nvar initialY = 0;\n\n// Create an array of objects, where each object represents a point with x and y coordinates\nvar points = [\n    { x: initialX, y: initialY },\n    // Add more points as needed\n];\n\n// Set the message payload to the array of points\nmsg.payload = points;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "246bca945efcbdc0",
+        "type": "ui_template",
+        "z": "3671fcabd4ef1e0d",
+        "group": "21e9b36d2b306d46",
+        "name": "",
+        "order": 1,
+        "width": 11,
+        "height": 12,
+        "format": "<script>\n    var point = { x: 0, y: 0 };\n    var linesData = []; // Array to store line data\n\n    // Update the plot based on the slider values and input data\n    function updatePlot() {\n        // Clear existing plot (replace this with your own logic)\n        d3.select(\"#plot\").selectAll(\"*\").remove();\n\n        // Create a new plot or update the existing one\n        var svg = d3.select(\"#plot\")\n            .append(\"svg\")\n            .attr(\"width\", 500)\n            .attr(\"height\", 500)\n            .style(\"border\", \"2px solid black\"); // Add a border to the SVG\n\n        // Add background image using the <img> tag with adjusted margin-top\n        svg.append(\"foreignObject\")\n            .attr(\"width\", 500)\n            .attr(\"height\", 500)\n            .append(\"xhtml:body\")\n            .html('<img style=\"margin-top: 0px;\" width=\"100%\" height=\"100%\" src=\"https://i.ibb.co/r5qrn9D/Screenshot-2023-12-17-175032.jpg\" />'); // New image link\n\n       \n\n        // Add lines with the specified styles based on fake data\n        linesData.forEach(function(data, index) {\n            var lineColor = \"green\"; // Default color\n\n            if (data.inches > 3.1) {\n                lineColor = \"red\"; // Not passable, 3.1 and above inches\n            } else if (data.inches >= 1.1) {\n                lineColor = \"orange\"; // Passable, 1.1 to 3 inches\n            }\n\n            svg.append(\"line\")\n                .attr(\"class\", \"line-\" + index)\n                .attr(\"x1\", data.x1)\n                .attr(\"y1\", data.y1)\n                .attr(\"x2\", data.x2)\n                .attr(\"y2\", data.y2)\n                .style(\"stroke\", lineColor)\n                .style(\"stroke-opacity\", \"0.75\")\n                .style(\"stroke-width\", 6);\n        });\n\n        // Replace the path with the new SVG icon\n        svg.append(\"foreignObject\")\n            .attr(\"width\", 20) // Adjust the width of the icon\n            .attr(\"height\", 20) // Adjust the height of the icon\n            .attr(\"x\", point.x) // Set the X coordinate of the icon\n            .attr(\"y\", point.y) // Set the Y coordinate of the icon\n            .html('<img width=\"20\" height=\"20\" src=\"https://img.icons8.com/officexs/30/marker.png\" alt=\"marker\"/>');\n            \n        // Display X and Y coordinates\n        document.getElementById(\"xValue\").innerText = \"X: \" + point.x;\n        document.getElementById(\"yValue\").innerText = \"Y: \" + point.y;\n    }\n\n    // Function to update fake data every second\n    function updateFakeData() {\n        // Update fake data (replace this with your own logic)\n        linesData = [\n            { x1: 88, y1: 149, x2: 185, y2: 380, inches: Math.random() * 4 }, // Random value between 0 and 4\n            { x1: 181, y1: 361, x2: 404, y2: 277, inches: Math.random() * 4 },\n            { x1: 260, y1: 325, x2: 200, y2: 152, inches: Math.random() * 4 }\n        ];\n\n        updatePlot();\n    }\n\n    // Update X coordinate based on the slider value\n    function updateX() {\n        point.x = document.getElementById(\"xSlider\").value;\n        updatePlot();\n    }\n\n    // Update Y coordinate based on the slider value\n    function updateY() {\n        point.y = document.getElementById(\"ySlider\").value;\n        updatePlot();\n    }\n\n    // Update XY coordinate based on the slider value\n    function updateXY() {\n        var xyValue = document.getElementById(\"xySlider\").value;\n        point.x = xyValue;\n        point.y = xyValue;\n        updatePlot();\n    }\n\n    // Call the updateFakeData function every second\n    setInterval(updateFakeData, 3000);\n\n    // Initial plot\n    updatePlot();\n</script>\n\n<div>\n    <label for=\"xSlider\">X Coordinate:</label>\n    <input type=\"range\" id=\"xSlider\" min=\"0\" max=\"499\" value=\"{{point.x}}\" oninput=\"updateX()\">\n    <span id=\"xValue\">{{point.x}}</span>\n</div>\n\n<div>\n    <label for=\"ySlider\">Y Coordinate:</label>\n    <input type=\"range\" id=\"ySlider\" min=\"0\" max=\"499\" value=\"{{point.y}}\" oninput=\"updateY()\">\n    <span id=\"yValue\">{{point.y}}</span>\n</div>\n\n<div>\n    <label for=\"xySlider\">XY Coordinate:</label>\n    <input type=\"range\" id=\"xySlider\" min=\"0\" max=\"499\" value=\"{{point.x}}\" oninput=\"updateXY()\">\n    <span>{{point.x}}</span>\n</div>\n\n<div id=\"plot\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 620,
+        "y": 40,
+        "wires": [
+            []
+        ]
     }
 ]
